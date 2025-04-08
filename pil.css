@@ -1,0 +1,27 @@
+
+div{
+    
+    flex: auto;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: #444444 0px 0px 5px;
+    margin: 10px;
+    margin-left: 25px;
+    display: block;
+    float: left;
+
+    h2{
+        text-align: center;
+    }
+}
+div:hover{
+    background-color: #021a2d;
+    color: #ffda00;
+    box-shadow: #ffda00 0px 0px 5px;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.03);
+}
+img{
+    border-radius: 3px;
+}
