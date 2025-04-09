@@ -1,0 +1,97 @@
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 10px;
+}
+
+article{
+    width: 300px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: #444444 0px 0px 5px;
+    margin: 10px 15px;
+    display: block;
+    float: left;
+
+    h2{
+        text-align: center;
+    }
+}
+    .red:hover{
+        background-color: #021a2d;
+        color: #ffda00;
+        box-shadow: #ffda00 0px 0px 10px;
+        transition: all 0.5s ease-in-out;
+        transform: scale(1.03);
+    }
+    .mc:hover{
+        background-color: #fd9802;
+        color: #000000;
+        box-shadow: #e10000 0px 0px 10px;
+        transition: all 0.5s ease-in-out;
+        transform: scale(1.03);
+    }
+    .sau:hover{
+        background-color: #51ce55;
+        color: #000000;
+        box-shadow: #009817 0px 0px 10px;
+        transition: all 0.5s ease-in-out;
+        transform: scale(1.03);
+    }
+    .rb:hover{
+        background-color: #1634cc;
+        color: #ffffff;
+        box-shadow: #020de5 0px 0px 10px;
+        transition: all 0.5s ease-in-out;
+        transform: scale(1.03);
+    }
+    .alp:hover{
+        background-color: #3890d8;
+        color: #ffffff;
+        box-shadow: #ff91c6 0px 0px 10px;
+        transition: all 0.5s ease-in-out;
+        transform: scale(1.03);
+    }
+    .ast:hover{
+        background-color: #01574d;
+        color: #ffffff;
+        box-shadow: #53c2ba 0px 0px 10px;
+        transition: all 0.5s ease-in-out;
+        transform: scale(1.03);
+    }
+    .mer:hover{
+        background-color: #02a39d;
+        color: #000000;
+        box-shadow: #32fff1 0px 0px 10px;
+        transition: all 0.5s ease-in-out;
+        transform: scale(1.03);
+    }
+    .fer:hover{
+        background-color: #8e0206;
+        color: #f6e904;
+        box-shadow: #f6e904 0px 0px 10px;
+        transition: all 0.5s ease-in-out;
+        transform: scale(1.03);
+    }
+    .wil:hover{
+        background-color: #032555;
+        color: #009bd7;
+        box-shadow: #009bd7 0px 0px 10px;
+        transition: all 0.5s ease-in-out;
+        transform: scale(1.03);
+    }
+    .haas:hover{
+        background-color: #e71a23;
+        color: #000000;
+        box-shadow: #800007 0px 0px 10px;
+        transition: all 0.5s ease-in-out;
+        transform: scale(1.03);
+    }
+
+img{
+    border-radius: 3px;
+    justify-self: center;
+}
