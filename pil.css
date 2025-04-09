@@ -26,7 +26,28 @@ article{
 .mc:hover{
     background-color: #fd9802;
     color: #000000;
-    box-shadow: #000000 0px 0px 8px;
+    box-shadow: #e10000 0px 0px 8px;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.03);
+}
+.sau:hover{
+    background-color: #07b00c;
+    color: #000000;
+    box-shadow: #184620 0px 0px 8px;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.03);
+}
+.rb:hover{
+    background-color: #1634cc;
+    color: #ffffff;
+    box-shadow: #c2beff 0px 0px 8px;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.03);
+}
+.alp:hover{
+    background-color: #0e6dbb;
+    color: #ff48a1;
+    box-shadow: #ff48a1 0px 0px 8px;
     transition: all 0.5s ease-in-out;
     transform: scale(1.03);
 }
