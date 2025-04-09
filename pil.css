@@ -1,13 +1,19 @@
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 10px;
+}
 
 article{
+    width: 300px;
     
-    flex: auto;
     background-color: #ffffff;
     padding: 10px;
     border-radius: 5px;
     box-shadow: #444444 0px 0px 5px;
-    margin: 10px;
-    margin-left: 25px;
+    margin: 10px 15px;
     display: block;
     float: left;
 
@@ -55,4 +61,5 @@ article{
 
 img{
     border-radius: 3px;
+    justify-self: center;
 }
