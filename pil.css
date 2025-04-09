@@ -15,13 +15,23 @@ div{
         text-align: center;
     }
 }
-div:hover{
+    
+div.red:hover{
     background-color: #021a2d;
     color: #ffda00;
     box-shadow: #ffda00 0px 0px 5px;
     transition: all 0.5s ease-in-out;
     transform: scale(1.03);
 }
+div.mc:hover{
+    background-color: #fd9802;
+    color: #000000;
+    box-shadow: #000000 0px 0px 8px;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.03);
+}
+
+
 img{
     border-radius: 3px;
 }
