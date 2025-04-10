@@ -8,7 +8,6 @@ main{
 }
 
 
-
 section{
     display: inherit;
     flex-direction: column;
@@ -38,43 +37,42 @@ article{
   }
 
 article.verm:hover{
-    background-color: rgb(249, 102, 35);
-    border: 3px solid #ff0000;
-    box-shadow: ;
-    height: 400px;
-    width: 350px;
+    background-color: rgb(98, 98, 98);
+    box-shadow: #ff0000 0px 0px 10px;
+    height: 550px;
+    width: 450px;
     transition: all 0.5s ease-in-out;
     transform: scale(1.05);
 }
 article.ama:hover{
-    background-color: rgb(234, 244, 121);
-    border: 3px solid #fffb00;
-    height: 400px;
-    width: 350px;
+    background-color: rgb(98, 98, 98);
+    box-shadow: #fffb00 0px 0px 10px;
+    height: 550px;
+    width: 450px;
     transition: all 0.5s ease-in-out;
     transform: scale(1.05);
 }
 article.branco:hover{
-    background-color: rgb(255, 255, 255);
-    border: 3px solid #999999;
-    height: 400px;
-    width: 350px;
+    background-color: rgb(98, 98, 98);
+    box-shadow: #ffffff 0px 0px 10px;
+    height: 550px;
+    width: 450px;
     transition: all 0.5s ease-in-out;
     transform: scale(1.05);
 }
 article.ver:hover{
     background-color: rgb(133, 233, 123);
     box-shadow: #1de80e 0px 0px 10px;
-    height: 550px;
+    height: 650px;
     width: 450px;
     transition: all 0.5s ease-in-out;
     transform: scale(1.05);
 }
 article.azul:hover{
-    background-color: rgb(134, 211, 255);
-    border: 3px solid #0962fb;
-    height: 400px;
-    width: 350px;
+    background-color: rgb(82, 197, 236);
+    box-shadow: #2d9fbc 0px 0px 10px;
+    height: 650px;
+    width: 450px;
     transition: all 0.5s ease-in-out;
     transform: scale(1.05);
 }
@@ -101,9 +99,18 @@ h2{
 
 }
 h3{
-    
+    text-align: center;
     padding: 10px;
     bottom: 0;
-    color: white;
+    color: rgb(0, 0, 0);
     width: 100%;
+    font-size: 30px;
   }
+p{
+    font-family: "Titillium Web";
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
