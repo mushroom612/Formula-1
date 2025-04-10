@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display: inherit;/*copiar o css do elemento pai(body)*/
+    flex-direction: column;
+
+}
+section{
+    display: inherit;
+    flex-direction: column;
+    
+}
+h2{
+    font-family:"Passion One" ;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+.p{
+    background-color: #444444;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 10px;
+    margin: 10px;
+    border-radius: 7px;
+}
+
+article{
+    
+    width: 20vw;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: #444444 0px 0px 5px;
+    margin: 10px 15px;
+    display: block;
+    float: left;
+}
+img{
+    border-radius: 3px;
+    justify-self: center;
+    width: 100%;
+    height: auto;
+

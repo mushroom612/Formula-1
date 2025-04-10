@@ -7,7 +7,7 @@ section{
 }
 
 article{
-    width: 300px;
+    width: 20vw;
     background-color: #ffffff;
     padding: 10px;
     border-radius: 5px;
@@ -94,4 +94,6 @@ article{
 img{
     border-radius: 3px;
     justify-self: center;
+    width: 100%;
+    height: auto;
 }
