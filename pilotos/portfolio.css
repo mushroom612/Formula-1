@@ -1,0 +1,11 @@
+aside{
+    position: fixed;
+    height: max-content;
+    width: 220px;
+   
+    background-color: #20202e;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.3);
+    overflow-y: auto;
+}

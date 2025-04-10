@@ -3,45 +3,107 @@ body{
     flex-direction: column;
 }
 main{
-    display: inherit;/*copiar o css do elemento pai(body)*/
+    display: inherit;
     flex-direction: column;
-
 }
+
+
+
 section{
     display: inherit;
     flex-direction: column;
-    
-}
-h2{
-    font-family:"Passion One" ;
-    text-align: center;
-    font-size: 70px;
-    color: white;
+    justify-content: center;
 }
 .p{
-    background-color: #444444;
+    
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
-    padding: 0 10px;
-    margin: 10px;
-    border-radius: 7px;
-}
-
-article{
-    
-    width: 20vw;
     padding: 10px;
+    margin: 10px;
     border-radius: 5px;
-    box-shadow: #444444 0px 0px 5px;
-    margin: 10px 15px;
-    display: block;
-    float: left;
-}
-img{
-    border-radius: 3px;
-    justify-self: center;
-    width: 100%;
-    height: auto;
 
+    flex-wrap: wrap;/*pesquisar*/
+}
+article{
+    width: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    height: 250px;
+    margin: 50px;
+    padding: 10px;
+    position: relative;
+    transform: scale(1.05);
+  }
+
+article.verm:hover{
+    background-color: rgb(249, 102, 35);
+    border: 3px solid #ff0000;
+    box-shadow: ;
+    height: 400px;
+    width: 350px;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+}
+article.ama:hover{
+    background-color: rgb(234, 244, 121);
+    border: 3px solid #fffb00;
+    height: 400px;
+    width: 350px;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+}
+article.branco:hover{
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #999999;
+    height: 400px;
+    width: 350px;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+}
+article.ver:hover{
+    background-color: rgb(133, 233, 123);
+    box-shadow: #1de80e 0px 0px 10px;
+    height: 550px;
+    width: 450px;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+}
+article.azul:hover{
+    background-color: rgb(134, 211, 255);
+    border: 3px solid #0962fb;
+    height: 400px;
+    width: 350px;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+}
+
+img.un {
+    width: 250px;         
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;      /* centraliza horizontalmente */
+  } 
+.res{
+    max-width: 60%;
+    margin: auto;
+    height: 60%;
+}
+
+h2{
+    background-color: #444444;
+    font-family:"Passion One";
+    text-align: center;
+    font-size: 100px;
+    color: white;
+
+}
+h3{
+    
+    padding: 10px;
+    bottom: 0;
+    color: white;
+    width: 100%;
+  }
