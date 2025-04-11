@@ -89,7 +89,6 @@ img.un {
     margin: auto;
     height: 60%;
 }
-
 h2{
     background-color: #444444;
     font-family:"Passion One";
@@ -114,3 +113,81 @@ p{
     padding: 10px;
     
 }
+
+
+#container {
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+
+    p{
+        text-align: center;
+        bottom: 0;
+        color: rgb(0, 0, 0);
+        width: 100%;
+        font-size: 20px;
+    }
+    h4{
+        text-align: center;
+        bottom: 0;
+        color: rgb(0, 0, 0);
+        width: 100%;
+        font-size: 30px;
+      }
+  }
+  
+  .c1 {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 95%;
+    box-shadow: #e10600 0px 0px 10px;
+  }
+  .c2 {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 95%;
+    box-shadow: #e10600 0px 0px 10px;
+  }
+  .c3 {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 95%;
+    box-shadow: #e10600 0px 0px 10px;
+  }
+  .c4 {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 95%;
+    box-shadow: #e10600 0px 0px 10px;
+  }
+  .c5 {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 95%;
+    box-shadow: #e10600 0px 0px 10px;
+  }
+  
+  .c1, .c2, .c3, .c4, .c5 {
+    margin: 2px;
+    display: inline-block;
+    scroll-snap-align: auto;
+    scroll-snap-stop: always;
+    scroll-margin-right: 20px;
+    scroll-margin-left: 20px;
+  }
+  
