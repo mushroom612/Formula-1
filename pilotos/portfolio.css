@@ -1,11 +1,17 @@
 aside{
-    position: fixed;
-    height: max-content;
-    width: 220px;
-   
-    background-color: #20202e;
-    color: white;
-    padding: 20px;
-    box-shadow: 2px 0 5px rgba(0,0,0,0.3);
-    overflow-y: auto;
+    position: sticky;
+    width: 20%;
+    border: 2px solid purple;
+    top:0;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: left;
+    height: auto;
+    margin-right: 80%;
+}
+main{
+    margin-left: 20%;
+    display: flex;
+    flex: auto;
 }
