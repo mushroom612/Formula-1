@@ -1,0 +1,321 @@
+aside {
+    position: sticky;
+    top: 0;
+    width: 15%;
+    display: flex;
+    background: #15151e;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+    float: inline-start;
+    border-radius: 5px;
+    box-shadow: #000000 0px 0px 10px;
+    margin: 0 3px 8px 8px;
+
+    .pil{
+        margin: 7px;
+        padding: 8px;
+        border: 2px solid #e10600;
+        background-color: #000000;
+        color: #ffffff;
+        font-size: 14px;
+        font-family: "passion one";
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-decoration: transparent;
+        text-align: center;
+    }
+    .pil:hover{
+        background-color: #ffffff;
+        color: #000000;
+        text-align: center;
+    }
+    a:hover {
+        background-color: #ffffff;
+        color: #000000;
+        text-align: center;
+    
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+aside:hover {
+    box-shadow: #000000 0px 0px 10px;
+    
+}
+
+.alp{
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin: 7px;
+    padding: 10px;
+    border: #000000 2px solid;
+    border-radius: 5px;
+    
+    p{
+        padding-left: 5px;
+        border-left: #e10600 5px solid;
+    }
+    p:hover{
+        background-color: #0078c1;
+        color: #ffffff;
+        border-left: #fd4bc7 5px solid;
+    }
+}
+.ast{
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin: 7px;
+    padding: 10px;
+    border: #000000 2px solid;
+    border-radius: 5px;
+    
+    p{
+        padding-left: 5px;
+        border-left: #e10600 5px solid;
+        
+    }
+    p:hover{
+        background-color: #00352f;
+        color: #ffffff;
+        border-left: #cedc00 5px solid;
+        
+    }
+}
+.fer{
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin: 7px;
+    padding: 10px;
+    border: #000000 2px solid;
+    border-radius: 5px;
+    
+    p{
+        padding-left: 5px;
+        border-left: #e10600 5px solid;
+        
+    }
+    p:hover{
+        background-color: #a6051A;
+        color: #ffffff;
+        border-left: #ffeb00 5px solid;
+        
+    }
+}
+.haa{
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin: 7px;
+    padding: 10px;
+    border: #000000 2px solid;
+    border-radius: 5px;
+    
+    p{
+        padding-left: 5px;
+        border-left: #e10600 5px solid;
+        
+    }
+    p:hover{
+        background-color: #f62039;
+        color: #ffffff;
+        border-left: #295294 5px solid;
+    }
+}
+.mer{
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin: 7px;
+    padding: 10px;
+    border: #000000 2px solid;
+    border-radius: 5px;
+    
+    p{
+        padding-left: 5px;
+        border-left: #e10600 5px solid;
+        
+    }
+    p:hover{
+        background-color: #00a19c;
+        color: #ffffff;
+        border-left: #80142b 5px solid;
+        
+    }
+}
+.mc{
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin: 7px;
+    padding: 10px;
+    border: #000000 2px solid;
+    border-radius: 5px;
+    
+    p{
+        padding-left: 5px;
+        border-left: #e10600 5px solid;
+        
+    }
+    p:hover{
+        background-color: #ff8000;
+        color: #ffffff;
+        border-left: #47c7fc 5px solid;
+        
+    }
+}
+.rb{
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin: 7px;
+    padding: 10px;
+    border: #000000 2px solid;
+    border-radius: 5px;
+    
+    p{
+        padding-left: 5px;
+        border-left: #e10600 5px solid;
+        
+    }
+    p:hover{
+        background-color: #1634cc;
+        color: #ffffff;
+        border-left: #020de5 5px solid;
+        
+    }
+}
+.red{
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin: 7px;
+    padding: 10px;
+    border: #000000 2px solid;
+    border-radius: 5px;
+    
+    p{
+        padding-left: 5px;
+        border-left: #e10600 5px solid;
+        
+    }
+    p:hover{
+        background-color: #121f45;
+        color: #ffffff;
+        border-left: #ffeb00 5px solid;
+        
+    }
+}
+.sau{
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin: 7px;
+    padding: 10px;
+    border: #000000 2px solid;
+    border-radius: 5px;
+    
+    p{
+        padding-left: 5px;
+        border-left: #e10600 5px solid;
+        
+    }
+    p:hover{
+        background-color: #52e252;
+        color: #000000;
+        border-left: #009817 5px solid;
+        
+    }
+}
+.wil{
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin: 7px;
+    padding: 10px;
+    border: #000000 2px solid;
+    border-radius: 5px;
+    
+    p{
+        padding-left: 5px;
+        border-left: #e10600 5px solid;
+        
+    }
+    p:hover{
+        background-color: #041e42;
+        color: #ffffff;
+        border-left: #e40046 5px solid;
+       
+    }
+}
+
+
+
+.photo{
+    justify-content: right;
+    float: right;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: 0px;
+    box-shadow: #000000 0px 0px 10px;
+    border-left: #e10600 5px solid ;
+    border-bottom: #e10600 5px solid;
+    border-right:  5px solid;
+    border-top: 5px solid;
+}
+section{
+    margin-left: 17%;
+}
+
+
+h1{
+    margin-bottom: 20px;
+}
+h3 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: left;
+    border-bottom:2px solid #e10600;
+    margin:0;
+    padding: 0 3px;
+}
+h4{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: "titillium web";
+    text-align: left;
+    border-bottom:2px solid #e10600;
+    padding: 0 3px;
+    margin:5px;
+    margin-top: 20px;
+   
+    
+}
+.nome{
+    margin-right: 22%;
+}
+h5{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: justify;
+    margin:5px;
+    padding: 0 3px;
+}
+ul{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 4%;
+    padding: 0 3px;
+    list-style: square;
+}
