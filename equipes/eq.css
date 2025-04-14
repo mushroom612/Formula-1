@@ -1,0 +1,109 @@
+section{
+  display: block;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.time{
+  
+  display: block;
+  float: left;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 20px;
+  overflow: hidden;
+  position: relative;
+  height: 130px;
+  width: 45%;
+  margin: 10px 15px;
+  
+}
+.info{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 2;
+
+  a{
+    font-family: "titillium web";
+    font-size: 20 px;
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    padding-left: 5px;
+    
+   
+   
+  }
+}
+.car{
+  max-height: 100px;
+  position: relative;
+  right: 20px;
+  float: right;
+  z-index: 1;
+}
+.logo {
+  width: 50px;
+}
+.Alpine {
+  background: linear-gradient(90deg, #0078c1, #9a2b79);
+  a{
+    border-left: #00293f 4px solid;
+  }
+}
+.aston{
+  background: linear-gradient(90deg, #00594f, #002a25);
+  a{
+    border-left: #002a25 4px solid;
+  }
+}
+.fer{
+  background: linear-gradient(90deg, #a6051a, #44020a);
+  a{
+    border-left: #44020a 4px solid;
+  }
+}
+.haas{
+  background: linear-gradient(90deg, #f62039, #940718);
+  a{
+    border-left: #940718 4px solid;
+  }
+}
+.mcl{
+  background: linear-gradient(90deg, #ff8000, #442302);
+  a{
+    border-left: #442302 4px solid;
+  }
+}
+.mer{
+  background: linear-gradient(90deg, #00a19c, #013533);
+  a{
+    border-left: #013533 4px solid;
+  }
+}
+.rb{
+  background: linear-gradient(90deg, #1634cc, #0a1443);
+  a{
+    border-left: #0a1443 4px solid;
+  }
+}
+.redbull{
+  background: linear-gradient(90deg, #1b1bff, #000066);
+  a{
+    border-left: #000066 4px solid;
+  }
+}
+.sau{
+  background: linear-gradient(90deg, #37e137, #034403);
+  a{
+    border-left: #034403 4px solid;
+  }
+}
+.wil{
+  background: linear-gradient(90deg, #00a3e0, #041e42);
+  a{
+    border-left: #041e42 4px solid;
+  }
+}
+
