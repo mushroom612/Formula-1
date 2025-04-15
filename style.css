@@ -26,12 +26,14 @@ h1{
     color: #fff;
     margin-left: 20px;
     font-style: italic;
+   
 }
 nav{
     display: flex;
     align-items: center;
-    box-shadow: #000000 0px 0px 10px;
+    
     margin-bottom: 20px;
+    
     a{
         flex: auto;
         text-decoration: none;
@@ -43,7 +45,7 @@ nav{
         font-size: 20px;
         text-align: center;
         font-weight:bolder;
-      
+
             
     }
     a:hover{
