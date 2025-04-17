@@ -43,6 +43,20 @@ section{
   float: right;
   z-index: 1;
 }
+@keyframes ride{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-300%);
+  }
+}
+
+.car:hover{
+animation: ride 1s ease-in;
+
+}
+
 .logo {
   width: 50px;
 }
