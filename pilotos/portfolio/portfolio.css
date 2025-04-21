@@ -3,7 +3,7 @@ aside {
     top: 0;
     width: 15%;
     display: flex;
-    background: #15151e;
+    background: #121212;
     flex-direction: column;
     justify-content: flex-start;
     height: auto;
@@ -298,7 +298,7 @@ h4{
     
 }
 .nome{
-    margin-right: 22%;
+    margin-right: 24%;
 }
 h5{
     color: rgb(255, 255, 255);

@@ -3,13 +3,24 @@
     padding: 0;
     
   }
+
+  @font-face {
+    font-family: 'Formula1-Display-Bold-Bold';
+    src:  url('/fonts/formula1/Formula1-Display-Bold-Bold.ttf.woff') format('woff'),
+    url('/fonts/formula1/Formula1-Display-Bold-Bold.ttf.svg#Formula1-Display-Bold-Bold') format('svg'),
+    url('/fonts/formula1/Formula1-Display-Bold-Bold.ttf.eot'),
+    url('/fonts/formula1/Formula1-Display-Bold-Bold.eot?#iefix') format('embedded-opentype'); 
+  }
+
+  
+
 body{
-    background-color: #15151e;
+    background-color: #242320;
     font-family:"Titillium Web"
 }
 header{
-    background-color: #e10600;
-    height: 100px;
+    background-color: #121212;
+    height: 80px;
     display: flex;
     align-items: center;
     padding: 0 20px;
@@ -21,7 +32,7 @@ header{
 
 h1{
    
-    font-family: "Passion One";
+    font-family: 'Formula1-Display-Bold-Bold';
     font-size: 70px;
     color: #fff;
     margin-left: 20px;
@@ -37,23 +48,24 @@ nav{
     a{
         flex: auto;
         text-decoration: none;
-        background-color: #ffffff;
+        background-color: #e10600;
         border-color: transparent;;
         margin-bottom: 0% 2%;
-        padding: 5px 12px;
-        color: black;
+        padding: 15px 12px;
+        color: rgb(255, 255, 255);
         font-size: 20px;
         text-align: center;
-        font-weight:bolder;
+        font-weight: 500;
 
+        
             
     }
     a:hover{
-        background-color: #a40500;
+        background-color: #121212;
         color: rgb(255, 255, 255);
     }
-           
-        
+
+
 }
 
 footer{
