@@ -97,6 +97,11 @@ img{
     justify-self: center;
     width: 100%;
     height: auto;
+
+    /* padronizando o tamanho das imgs */
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    object-position: center;
 }
 a{
     text-decoration: none;
